@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(johny-goerend-Oz2ZQ2j8We8-unsplash.jpg);
+  background-size: cover;
+}
+
+#main_box{
+  width: 600px;
+  height: 600px;
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family:  "Tac One", sans-serif;
+  font-size: 30px;
+  margin-top: 50px;
+  border-radius: 50px;
+  opacity: 0.4;
+  border: 5px solid black;
+}
+
+#first_box{
+  height: 50px;
+  width: 300px;
+  background-color:  cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  border: 2px black solid ;
+}
+
+#first_box input{
+  height: 50px;
+  width: 250px;
+  background-color: cyan;
+  outline: none;
+  border: none;
+}
+
+#second_box{
+  margin-top: 20px;
+  height: 50px;
+  width: 300px;
+  background-color: cyan;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 35px;
+  border: 2px solid black;
+}
+
+#second_box input{
+  height: 50px;
+  width: 250px;
+  background-color:  cyan;
+  outline: none;
+  border: none;
+}
+
+#third_box{
+  height: 50px;
+}
+
+button{
+  margin-top: 20px;
+  height: 35px;
+  width: 100px;
+  border-radius: 35px;
+
+}
